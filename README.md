@@ -6,3 +6,4 @@ This is just a test
 This is just a test
 Yes, a test!
 Bla bla bla
+Lets commit through intellij.
