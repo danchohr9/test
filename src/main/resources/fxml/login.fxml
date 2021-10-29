@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.group30.courseprojecttest.LoginController">
+   <children>
+      <Button fx:id="signInButton" layoutX="181.0" layoutY="289.0" mnemonicParsing="false" text="Sign In" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="username" layoutX="93.0" layoutY="172.0" text="Username:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="password" layoutX="95.0" layoutY="202.0" text="Password:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" layoutX="168.0" layoutY="169.0" />
+      <TextField fx:id="passwordTextField" layoutX="168.0" layoutY="199.0" />
+      <CheckBox fx:id="showPassword" layoutX="212.0" layoutY="243.0" mnemonicParsing="false" text="Show Password" />
+      <Label fx:id="title" layoutX="147.0" layoutY="82.0" text="Login Menu">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
